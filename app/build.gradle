@@ -42,4 +42,13 @@ dependencies {
     testImplementation 'junit:junit:4.+'
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
+
+//    Shimmer dependency by facebook
+    implementation 'com.facebook.shimmer:shimmer:0.1.0@aar'
+//    RecyclerView dependency
+    implementation "androidx.recyclerview:recyclerview:1.1.0"
+//    Android Networking dependency for http API calls
+    implementation 'com.amitshekhar.android:android-networking:1.0.2'
+//    Glide dependency for image loading
+    implementation 'com.github.bumptech.glide:glide:4.11.0'
 }
